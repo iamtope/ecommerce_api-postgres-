@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce_crud_api",
+  "version": "1.0.0",
+  "description": "A  CRUD api for a simple ecommerce website ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate:up": "node node_modules/db-migrate/bin/db-migrate up --config database.json -e dev",
+    "migrate:down": "node node_modules/db-migrate/bin/db-migrate down --config database.json -e dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "db-migrate": "^0.11.6",
+    "db-migrate-pg": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "pg": "^7.17.1",
+    "node-pg-migrate": "^3.23.3"
+  }
+}

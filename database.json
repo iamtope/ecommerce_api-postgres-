@@ -1,0 +1,11 @@
+{
+  "dev": {
+    "ENV": "CRUD_API_DATABASE"
+  },
+  "test": {
+    "ENV": "CRUD_API_DATABASE"
+  },
+  "prod": {
+    "ENV": "CRUD_API_DATABASE"
+  }
+}
